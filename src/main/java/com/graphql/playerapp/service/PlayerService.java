@@ -17,12 +17,12 @@ import java.util.Optional;
 @Service
 @RequiredArgsConstructor
 @Validated
-public class PlayerService implements PlayerServiceImpl{
+public class PlayerService {
 
     private final PlayerRepository playerRepository;
     private final PlayerMapper playerMapper;
 
-    @Override
+
     public Optional<Player> createPlayer(@Valid PlayerDTO playerDTO){
         Player player = playerMapper.mapFromPlayerDTOtoPlayer(playerDTO);
         if(count() < 12) {
@@ -32,7 +32,7 @@ public class PlayerService implements PlayerServiceImpl{
         }
     }
 
-    @Override
+
     public String deletePlayer(Long id) {
         Optional<Player> player = playerRepository.findById(id);
         boolean isExistId = playerRepository.existsById(id);
@@ -42,11 +42,11 @@ public class PlayerService implements PlayerServiceImpl{
         playerRepository.deleteById(id);
         return "Player with ID: " + id + " deleted!";
     }
-    @Override
+
     public Long count(){
         return playerRepository.count();
     }
-    @Override
+
     public List<Player> allPlayers() {
         return playerRepository.findAll();
     }

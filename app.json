@@ -1,0 +1,8 @@
+{
+  "name": "sha-player-app",
+  "buildpacks" : [
+  {
+    "url": "heroku/maven"
+  }
+    ]
+}

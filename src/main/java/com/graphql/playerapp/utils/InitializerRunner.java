@@ -1,15 +1,14 @@
 package com.graphql.playerapp.utils;
 
-import com.graphql.playerservice.model.Player;
-import com.graphql.playerservice.model.enumeration.Positions;
-import com.graphql.playerservice.repository.PlayerRepository;
+import com.graphql.playerapp.model.Player;
+import com.graphql.playerapp.model.enumeration.Positions;
+import com.graphql.playerapp.repository.PlayerRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
 @Component
 @RequiredArgsConstructor
-
 public class InitializerRunner implements CommandLineRunner {
 
 
