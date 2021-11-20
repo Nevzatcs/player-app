@@ -81,13 +81,17 @@ The project will run on port 8080 (configured as default).
 
 ## ⚙️ GraphQL Example
 Project is online in : https://sha-player-app.herokuapp.com/graphiql
+
 Project is online in : https://sha-player-app.herokuapp.com/graphql (to make post requests)
+
 Main application URL for local: `http://localhost:8080`
 
 
 
-h2 Database URL for local: `http://localhost:8080/h2-console/`   
+h2 Database URL for local: `http://localhost:8080/h2-console/`  
+
 Application database is online in : https://sha-player-app.herokuapp.com/h2-console/  
+
 (username: sa, password: // no password, db: playerdb)
 
 #### Players
