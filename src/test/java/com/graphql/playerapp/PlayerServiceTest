@@ -1,0 +1,50 @@
+package com.graphql.playerapp.service;
+
+import com.graphql.playerapp.mappers.PlayerMapper;
+import com.graphql.playerapp.model.Player;
+import com.graphql.playerapp.model.enumeration.Positions;
+import com.graphql.playerapp.repository.PlayerRepository;
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
+import org.mockito.InjectMocks;
+import org.mockito.Mock;
+import org.mockito.Mockito;
+import org.mockito.junit.jupiter.MockitoExtension;
+
+import java.util.Collections;
+import java.util.List;
+import java.util.Optional;
+
+import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.*;
+import static org.mockito.Mockito.mock;
+import static org.mockito.Mockito.when;
+
+@ExtendWith(MockitoExtension.class)
+class PlayerServiceTest {
+
+    @Mock
+    PlayerRepository mockPlayerRepository;
+
+    @InjectMocks
+    PlayerService playerService;
+
+    @Mock
+    PlayerMapper mockPlayerMapper;
+
+    @Test
+    void deletePlayer() {
+//    Mockito.when(mockPlayerRepository.findById(1L)).thenReturn(Optional.of(new Player("Kone", "sdf", Positions.SG)));
+//
+//    playerService.deletePlayer(1L);
+//
+//    assertEquals("There is no player with ID: " + 1L, "There is no player with ID: " + 1L);
+    }
+
+    @Test
+    void allPlayers() {
+//    List<Player> playerList = Collections.singletonList();
+//    Mockito.when(mockPlayerRepository.findAll()).thenReturn(playerService.allPlayers());
+        
+    }
+}
