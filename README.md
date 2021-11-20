@@ -21,8 +21,6 @@ also all players in the system can be listed.
 - [📥 Installation](#installation)
 - <li><a href="#installation">Built With</a></li>
 - [🚀 Usage](#usage)
-
-- - <li><a href="#footer">Built With</a></li>
 - [⚙️ API Example](#contribute)
 - [⚙️ Tech Stack](#contribute)
 
@@ -31,7 +29,9 @@ also all players in the system can be listed.
 - [📝 License](#license)
 
 ## ✨ Preview
+![graphiql](https://user-images.githubusercontent.com/80898514/142724482-37faed3a-2a4b-4fb4-a1c1-666c3c35d8fd.jpg)
 
+![h2](https://user-images.githubusercontent.com/80898514/142724486-53e897da-cc9c-4b71-9d15-407d33b23922.jpg)
 
 
 ## 📥 Installation
@@ -78,9 +78,9 @@ mvnw spring-boot:run
 The project will run on port 8080 (configured as default).
 
 
-## ⚙️ API Example
+## ⚙️ GraphQL Example
 Project is online in : https://sha-player-app.herokuapp.com/graphiql
-
+Project is online in : https://sha-player-app.herokuapp.com/graphql (to make post requests)
 Main application URL for local: `http://localhost:8080`
 
 
