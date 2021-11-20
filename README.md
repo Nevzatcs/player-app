@@ -19,11 +19,9 @@ also all players in the system can be listed.
 
 - [✨ Preview](#demo-preview)
 - [📥 Installation](#installation)
-- <li><a href="#installation">Built With</a></li>
 - [🚀 Usage](#usage)
 - [⚙️ API Example](#contribute)
 - [⚙️ Tech Stack](#contribute)
-
 - [🤝 Contributing](#license)
 - [⌨️ Author](#footer)
 - [📝 License](#license)
