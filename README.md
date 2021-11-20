@@ -29,9 +29,10 @@ also all players in the system can be listed.
 - [📝 License](#license)
 
 ## ✨ Preview
-![graphiql](https://user-images.githubusercontent.com/80898514/142724482-37faed3a-2a4b-4fb4-a1c1-666c3c35d8fd.jpg)
 
-![h2](https://user-images.githubusercontent.com/80898514/142724486-53e897da-cc9c-4b71-9d15-407d33b23922.jpg)
+![graphiql](https://user-images.githubusercontent.com/80898514/142724647-2d771d7b-5cea-440c-8b7c-5a6b4644f83d.jpg)
+
+![h2](https://user-images.githubusercontent.com/80898514/142724651-4643aab1-3958-4089-b140-713ec59aafa1.jpg)
 
 
 ## 📥 Installation
